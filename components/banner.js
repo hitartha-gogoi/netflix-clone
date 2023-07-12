@@ -13,7 +13,7 @@ function Banner() {
   const url = `${base_url}/trending/all/week?api_key=${apiKey}&language=en-US`
 
   const opts = {
-    height: "390",
+    height: "320",
     width: "100%",
     playerVars: {
       autoplay: 1,
