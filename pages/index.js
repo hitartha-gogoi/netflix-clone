@@ -19,9 +19,11 @@ export default function Home() {
       <Banner />
       <div className="flex flex-col justify-evenly m-2 no-scrollbar">
       <h1 className="text-xl font-bold text-white">NETFLIX ORIGINALS </h1>
-        <Row url={`${base_url}/trending/all/week?api_key=${apiKey}&with_networks=213`} />
+
+      <Row url={`${base_url}/discover/tv?api_key=${apiKey}&with_networks=213`} />
         <h1 className="text-xl font-bold text-white">TRENDING</h1>
-        <Row url={`${base_url}/discover/tv?api_key=${apiKey}&language=en-US`} />
+
+        <Row url={`${base_url}/trending/all/week?api_key=${apiKey}&language=en-US`} />
         
         <h1 className="text-xl font-bold text-white">TOP RATED</h1>
         <Row url={`${base_url}/movie/top_rated?api_key=${apiKey}&language=en-US`} />
@@ -30,7 +32,7 @@ export default function Home() {
         <Row url={`${base_url}/discover/movie?api_key=${apiKey}&with_genres=28`} />
         <h1 className="text-xl font-bold text-white">COMEDY</h1>
         <Row url={`${base_url}/discover/movie?api_key=${apiKey}&with_genres=35`} />
-        <h1 className="text-xl font-bold text-white">ROMANCE</h1>
+        <h1 className="text-xl font-bold text-white">THRILLERS AND HORRORS</h1>
         <Row url={`${base_url}/discover/movie?api_key=${apiKey}&with_genres=27`} />
 
       
