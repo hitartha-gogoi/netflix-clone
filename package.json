@@ -1,0 +1,53 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@heroicons/react": "^1.0.6",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/base": "^5.0.0-beta.4",
+    "@mui/core": "^5.0.0-alpha.54",
+    "@mui/material": "^5.13.4",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "firebase": "^9.22.2",
+    "millify": "^6.1.0",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "movie-trailer": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "13.4.5",
+    "next-pwa": "^5.6.0",
+    "nodemailer": "^6.9.3",
+    "react": "18.2.0",
+    "react-adsense": "^0.1.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-flip-move": "^3.0.5",
+    "react-font": "^1.2.1",
+    "react-icons": "^4.9.0",
+    "react-insta-stories": "^2.6.0",
+    "react-reveal": "^1.2.2",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-tinder-card": "^1.6.2",
+    "react-youtube": "^10.1.0",
+    "stripe": "^12.10.0",
+    "three": "^0.153.0",
+    "three-js": "^79.0.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  }
+}
